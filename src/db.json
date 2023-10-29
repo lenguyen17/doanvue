@@ -1,0 +1,611 @@
+{
+  "products": [
+    {
+      "id": "1000",
+      "name": "Giày Nike Air Force 1 Low",
+      "price": 3150000,
+      "brand": "Nike",
+      "description": "Giày Nike Air Force 1 Low Sunset Glow- Giày Nike Air Force 1 Low Sunset Glow là một mẫu giày sneaker được thiết kế với tone màu trắng kết hợp cam rực rỡ mang tên Sunset Glow. Đây là một phiên bản mới nhất của dòng giày Air Force 1 cổ điển của Nike, nổi bật với phong cách trẻ trung, năng động và được",
+      "mainimage": "https://cdn.vortexs.io/api/images/483fde21-9a32-4417-8aaa-6813b019d30f/1920/w/giay-nike-air-force-1-low-college-pack-night-maroon-dq7659-102.jpeg",
+      "variations": [
+        {
+          "idcolor": "03",
+          "color": "rgb(83,41,53)",
+          "colorname": "Nâu",
+          "bonuspriceColor": 400000,
+          "subimage": "https://cdn.vortexs.io/api/images/82b92a2f-ab7f-44c4-9ac8-d5815fd38551/1920/w/giay-nike-air-force-1-low-college-pack-night-maroon-dq7659-102.jpeg",
+          "sizes": [
+            {
+              "idsize": "42",
+              "size": "42",
+              "quantity": 2
+            },
+            {
+              "idsize": "43",
+              "size": "43",
+              "quantity": 3
+            },
+            {
+              "idsize": "44",
+              "size": "44",
+              "quantity": 0
+            }
+          ]
+        },
+        {
+          "idcolor": "01",
+          "color": "#fff",
+          "colorname": "Trắng",
+          "bonuspriceColor": 0,
+          "subimage": "https://cdn.vortexs.io/api/images/8283c386-5e94-4645-9181-e8fb11c034bc/1920/w/giay-nike-air-force-1-low-sunset-glow-dz6307-100.jpeg",
+          "sizes": [
+            {
+              "idsize": "42",
+              "size": "42",
+              "quantity": 2
+            },
+            {
+              "idsize": "43",
+              "size": "43",
+              "quantity": 2
+            },
+            {
+              "idsize": "44",
+              "size": "44",
+              "quantity": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1001",
+      "name": "Giày Nike Air Jordan 1",
+      "price": 5750000,
+      "brand": "Adidas",
+      "description": "Giày Nike Air Jordan 1 đẹp tựa như một viên ngọc xanh trong trẻo, với một phối màu phi giới tính vô cùng đẹp mắt - Ghé ngay Minhshop để nhận mức giá cực kỳ ưu đãi.",
+      "mainimage": "https://cdn.vortexs.io/api/images/1b8111ca-90ab-4219-9440-83cc4f3624e0/1920/w/giay-nike-air-jordan-1-mid-university-blue-bq6472-141.jpeg",
+      "variations": [
+        {
+          "idcolor": "04",
+          "color": "#6494A7",
+          "colorname": "Xanh dương",
+          "bonuspriceColor": 0,
+          "subimage": "https://cdn.vortexs.io/api/images/8ebd28ec-ea3b-428f-9f4a-e5398ed55953/1920/w/giay-nike-air-jordan-1-mid-university-blue-bq6472-141.jpeg",
+          "sizes": [
+            {
+              "idsize": "42",
+              "size": "42",
+              "quantity": 7
+            },
+            {
+              "idsize": "43",
+              "size": "43",
+              "quantity": 4
+            },
+            {
+              "idsize": "44",
+              "size": "44",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "idcolor": "05",
+          "color": "#BE898F",
+          "colorname": "Hồng",
+          "bonuspriceColor": 2000000,
+          "subimage": "https://cdn.vortexs.io/api/images/1c56d545-6772-499d-beed-cb998817d33c/1920/w/giay-nike-air-jordan-1-high-zoom-pink-glaze-ct0979-601.jpeg",
+          "sizes": [
+            {
+              "idsize": "41",
+              "size": "41",
+              "quantity": 1
+            },
+            {
+              "idsize": "42",
+              "size": "42",
+              "quantity": 5
+            },
+            {
+              "idsize": "43",
+              "size": "43",
+              "quantity": 0
+            },
+            {
+              "idsize": "44",
+              "size": "44",
+              "quantity": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1002",
+      "name": "Giày adidas Yeezy Boost",
+      "price": 8350000,
+      "brand": "Adidas",
+      "description": "Giày adidas Yeezy Boost 350 V2 \"Beluga Reflective\" đẹp sắc nét đến từng chi tiết, phối màu huyền thoại làm anh em phải đổ gục - Hãy ghé Minhshop để có cơ hội trải nghiệm cũng như nhận được những mức giá ưu đãi nhé.",
+      "mainimage": "https://cdn.vortexs.io/api/images/2f63eddf-5775-4e7f-8f0c-c4cfb19872e2/1920/w/giay-adidas-yeezy-boost-350-v2-beluga-reflective-gw1229.jpeg",
+      "variations": [
+        {
+          "idcolor": "06",
+          "color": "#D95532",
+          "colorname": "Cam",
+          "bonuspriceColor": 1000000,
+          "subimage": "https://cdn.vortexs.io/api/images/3bf4aafb-08b0-435d-a91a-66d013c4e94a/1920/w/giay-adidas-yeezy-boost-350-v2-beluga-reflective-gw1229.jpeg",
+          "sizes": [
+            {
+              "idsize": "38",
+              "size": "38",
+              "quantity": 3
+            },
+            {
+              "idsize": "39",
+              "size": "39",
+              "quantity": 7
+            },
+            {
+              "idsize": "40",
+              "size": "40",
+              "quantity": 0
+            }
+          ]
+        },
+        {
+          "idcolor": "01",
+          "color": "#fff",
+          "colorname": "Trắng",
+          "bonuspriceColor": 0,
+          "subimage": "https://cdn.vortexs.io/api/images/2e20e006-407c-4771-ba47-c68438436296/1920/w/discount-950k-giay-adidas-yeezy-boost-350-v2-bone-o-hq6316.jpeg",
+          "sizes": [
+            {
+              "idsize": "40",
+              "size": "40",
+              "quantity": 2
+            },
+            {
+              "idsize": "41",
+              "size": "41",
+              "quantity": 3
+            },
+            {
+              "idsize": "42",
+              "size": "42",
+              "quantity": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1003",
+      "name": "Giày ADIDAS SUPERSTAR",
+      "price": 2550000,
+      "brand": "Adidas",
+      "description": "Giày Adidas Superstar Adifom Core Black là phiên bản mới nhất của dòng giày Adidas Superstar, được thiết kế mang đến sự thoải mái và siêu nhẹ cho người sử dụng. Sự kết hợp giữa kiểu dáng cổ điển, gam màu đen Core Black và công nghệ đệm Adifom đem đến cho đôi giày này diện mạo thời trang",
+      "mainimage": "https://cdn.vortexs.io/api/images/53626ad7-03c8-494e-ac81-92cf03e4f48f/1920/w/giay-adidas-superstar-adifom-core-black-hq8750.jpeg",
+      "variations": [
+        {
+          "idcolor": "02",
+          "color": "#000000",
+          "colorname": "Đen",
+          "bonuspriceColor": 600000,
+          "subimage": "https://cdn.vortexs.io/api/images/0e529171-5820-418c-a650-3302baee7603/1920/w/giay-adidas-adifom-superstar-black-white-hq8752.jpeg",
+          "sizes": [
+            {
+              "idsize": "41",
+              "size": "41",
+              "quantity": 5
+            },
+            {
+              "idsize": "42",
+              "size": "42",
+              "quantity": 8
+            },
+            {
+              "idsize": "44",
+              "size": "44",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "idcolor": "01",
+          "color": "#fff",
+          "colorname": "Trắng",
+          "bonuspriceColor": 0,
+          "subimage": "https://cdn.vortexs.io/api/images/f404415c-e5b2-46f7-857b-8b9cddf6470f/1920/w/giay-adidas-superstar-adifom-core-black-hq8750.jpeg",
+          "sizes": [
+            {
+              "idsize": "40",
+              "size": "40",
+              "quantity": 2
+            },
+            {
+              "idsize": "41",
+              "size": "41",
+              "quantity": 3
+            },
+            {
+              "idsize": "42",
+              "size": "42",
+              "quantity": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1004",
+      "name": "Giày Converse All Star 70",
+      "price": 1950000,
+      "brand": "Converse",
+      "description": "Một siêu phẩm huyền thoại trong làng thời trang đường phố, Giày Converse Chuck Taylor All Star 70 Plus White với bản phối mới đem lại một sự kết cực độc lạ bởi phần đế được cách điệu đẹp mắt và hack chiều cao cực đỉnh",
+      "mainimage": "https://cdn.vortexs.io/api/images/bb151ff0-bce1-45d3-9bf5-a8fb7f123fc7/1920/w/giay-converse-chuck-taylor-all-star-70-plus-white-a00915c.jpeg",
+      "variations": [
+        {
+          "idcolor": "01",
+          "color": "#fff",
+          "colorname": "Trắng",
+          "bonuspriceColor": 0,
+          "subimage": "https://cdn.vortexs.io/api/images/31a64f26-f390-4d21-bf31-689f7574cab2/1920/w/giay-converse-chuck-taylor-all-star-70-plus-white-a00915c.jpeg",
+          "sizes": [
+            {
+              "idsize": "40",
+              "size": "40",
+              "quantity": 2
+            },
+            {
+              "idsize": "41",
+              "size": "41",
+              "quantity": 3
+            },
+            {
+              "idsize": "42",
+              "size": "42",
+              "quantity": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1005",
+      "name": "Giày Converse Splatter",
+      "price": 1250000,
+      "brand": "Converse",
+      "description": "Giày Converse Chuck 70 Archive Paint Splatter White là một trong những tân binh vừa được cho ra mắt của nhà mốt Converse nhưng đã đạt được sự yêu thích nồng nhiệt từ các tín đồ thời trang bởi sự phối màu ngẫu nhiên và cá tính từ các vẩy sơn đủ màu sắc làm sẽ giúp bạn tự tin thể hiện cá tính",
+      "mainimage": "https://cdn.vortexs.io/api/images/6c240eb1-1ed8-42c2-b966-62b3c9ffda76/1920/w/giay-converse-chuck-70-archive-paint-splatter-white-a01170c.jpeg",
+      "variations": [
+        {
+          "idcolor": "07",
+          "color": "#F6E4AC",
+          "colorname": "Vàng",
+          "bonuspriceColor": 0,
+          "subimage": "https://cdn.vortexs.io/api/images/6c240eb1-1ed8-42c2-b966-62b3c9ffda76/1920/w/giay-converse-chuck-70-archive-paint-splatter-white-a01170c.jpeg",
+          "sizes": [
+            {
+              "idsize": "43",
+              "size": "43",
+              "quantity": 2
+            },
+            {
+              "idsize": "44",
+              "size": "44",
+              "quantity": 3
+            },
+            {
+              "idsize": "45",
+              "size": "45",
+              "quantity": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1006",
+      "name": "Giày adidas Superstar 2",
+      "price": 1750000,
+      "brand": "Adidas",
+      "description": "Mua sắm giày Adidas Superstar Old bản Gold Stamp 2021 với thiết kế mũi sò đặc trưng, bảo vệ tối ưu mũi chân có giá cực hot tại Minhshop.vn",
+      "mainimage": "https://cdn.vortexs.io/api/images/387d5954-de31-413a-8745-9c78b8f7fe4f/1920/w/adidas-superstar-2-gold-stamp-white-gold-eg4958.jpeg",
+      "variations": [
+        {
+          "idcolor": "01",
+          "color": "#fff",
+          "colorname": "Trắng",
+          "bonuspriceColor": 0,
+          "subimage": "https://cdn.vortexs.io/api/images/387d5954-de31-413a-8745-9c78b8f7fe4f/1920/w/adidas-superstar-2-gold-stamp-white-gold-eg4958.jpeg",
+          "sizes": [
+            {
+              "idsize": "38",
+              "size": "38",
+              "quantity": 5
+            },
+            {
+              "idsize": "39",
+              "size": "39",
+              "quantity": 8
+            },
+            {
+              "idsize": "40",
+              "size": "40",
+              "quantity": 0
+            }
+          ]
+        },
+        {
+          "idcolor": "08",
+          "color": "#385955",
+          "colorname": "Xanh",
+          "bonuspriceColor": 200000,
+          "subimage": "https://cdn.vortexs.io/api/images/5b376d73-d797-46f6-9e15-b75db23f3dc2/1920/w/giay-adidas-superstar-82-ivory-green-gw6011.jpeg",
+          "sizes": [
+            {
+              "idsize": "40",
+              "size": "40",
+              "quantity": 2
+            },
+            {
+              "idsize": "41",
+              "size": "41",
+              "quantity": 3
+            },
+            {
+              "idsize": "42",
+              "size": "42",
+              "quantity": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1007",
+      "name": "Giày Nike Air Max 97",
+      "price": 3450000,
+      "brand": "Nike",
+      "description": "'The Future Is In The Air' - Mặc dù ko hiểu hết nghĩa lắm nhưng shop đảm bảo với các bạn, mẫu Giày Nike Wmns Air Max 97 'The Future Is In The Air là 1 trong các đôi giày top hot dành cho các fan nữ thích sự êm ái của đế Air. Số lượng cho phiên bản này cực hiếm ghé 60/18 vạn kiếp p3 bình thạnh",
+      "mainimage": "https://cdn.vortexs.io/api/images/e1b580f6-cd26-4302-a321-854cbc5e418e/1920/w/giay-nike-wmns-air-max-97-the-future-is-in-the-air-dd8500-161.jpeg",
+      "variations": [
+        {
+          "idcolor": "07",
+          "color": "#D7C98B",
+          "colorname": "Vàng",
+          "bonuspriceColor": 0,
+          "subimage": "https://cdn.vortexs.io/api/images/e1b580f6-cd26-4302-a321-854cbc5e418e/1920/w/giay-nike-wmns-air-max-97-the-future-is-in-the-air-dd8500-161.jpeg",
+          "sizes": [
+            {
+              "idsize": "38",
+              "size": "38",
+              "quantity": 5
+            },
+            {
+              "idsize": "39",
+              "size": "39",
+              "quantity": 8
+            },
+            {
+              "idsize": "40",
+              "size": "40",
+              "quantity": 0
+            }
+          ]
+        },
+        {
+          "idcolor": "01",
+          "color": "#fff",
+          "colorname": "Trắng",
+          "bonuspriceColor": 0,
+          "subimage": "https://cdn.vortexs.io/api/images/58eb007d-a95a-4be4-8d3c-94540a79e33e/1920/w/giay-nike-air-max-97-white-navy-usa-dm2824-100.jpeg",
+          "sizes": [
+            {
+              "idsize": "40",
+              "size": "40",
+              "quantity": 2
+            },
+            {
+              "idsize": "41",
+              "size": "41",
+              "quantity": 3
+            },
+            {
+              "idsize": "42",
+              "size": "42",
+              "quantity": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1008",
+      "name": "Giày Vans Old Skool",
+      "price": 1350000,
+      "brand": "Vans",
+      "description": "'The Future Is In The Air' - Mặc dù ko hiểu hết nghĩa lắm nhưng shop đảm bảo với các bạn, mẫu Giày Nike Wmns Air Max 97 'The Future Is In The Air là 1 trong các đôi giày top hot dành cho các fan nữ thích sự êm ái của đế Air. Số lượng cho phiên bản này cực hiếm ghé 60/18 vạn kiếp p3 bình thạnh",
+      "mainimage": "https://cdn.vortexs.io/api/images/7dd8dbe6-fa69-42e7-a470-d4be43374c74/1920/w/giay-vans-old-skool-platform-black-white-vn0a3b3uy28.jpeg",
+      "variations": [
+        {
+          "idcolor": "02",
+          "color": "#000000",
+          "colorname": "Đen",
+          "bonuspriceColor": 0,
+          "subimage": "https://cdn.vortexs.io/api/images/7dd8dbe6-fa69-42e7-a470-d4be43374c74/1920/w/giay-vans-old-skool-platform-black-white-vn0a3b3uy28.jpeg",
+          "sizes": [
+            {
+              "idsize": "38",
+              "size": "38",
+              "quantity": 5
+            },
+            {
+              "idsize": "39",
+              "size": "39",
+              "quantity": 8
+            },
+            {
+              "idsize": "40",
+              "size": "40",
+              "quantity": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1009",
+      "name": "Giày New Blance 530",
+      "price": 1750000,
+      "brand": "New Balance",
+      "description": "'The Future Is In The Air' - Mặc dù ko hiểu hết nghĩa lắm nhưng shop đảm bảo với các bạn, mẫu Giày Nike Wmns Air Max 97 'The Future Is In The Air là 1 trong các đôi giày top hot dành cho các fan nữ thích sự êm ái của đế Air. Số lượng cho phiên bản này cực hiếm ghé 60/18 vạn kiếp p3 bình thạnh",
+      "mainimage": "https://cdn.vortexs.io/api/images/8e5438bb-5733-4f41-be1f-dbbaee90cda3/1920/w/giay-new-blance-530-silver-metallic-mr530ema.jpeg",
+      "variations": [
+        {
+          "idcolor": "01",
+          "color": "#fff",
+          "colorname": "Trắng",
+          "bonuspriceColor": 0,
+          "subimage": "https://cdn.vortexs.io/api/images/8e5438bb-5733-4f41-be1f-dbbaee90cda3/1920/w/giay-new-blance-530-silver-metallic-mr530ema.jpeg",
+          "sizes": [
+            {
+              "idsize": "38",
+              "size": "38",
+              "quantity": 5
+            },
+            {
+              "idsize": "39",
+              "size": "39",
+              "quantity": 8
+            },
+            {
+              "idsize": "40",
+              "size": "40",
+              "quantity": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10010",
+      "name": "Giày New Blance 550",
+      "price": 1750000,
+      "brand": "New Balance",
+      "description": "'The Future Is In The Air' - Mặc dù ko hiểu hết nghĩa lắm nhưng shop đảm bảo với các bạn, mẫu Giày Nike Wmns Air Max 97 'The Future Is In The Air là 1 trong các đôi giày top hot dành cho các fan nữ thích sự êm ái của đế Air. Số lượng cho phiên bản này cực hiếm ghé 60/18 vạn kiếp p3 bình thạnh",
+      "mainimage": "https://cdn.vortexs.io/api/images/8e5438bb-5733-4f41-be1f-dbbaee90cda3/1920/w/giay-new-blance-530-silver-metallic-mr530ema.jpeg",
+      "variations": [
+        {
+          "idcolor": "09",
+          "color": "#BE2941",
+          "colorname": "Đỏ",
+          "bonuspriceColor": 0,
+          "subimage": "https://cdn.vortexs.io/api/images/8e5438bb-5733-4f41-be1f-dbbaee90cda3/1920/w/giay-new-blance-530-silver-metallic-mr530ema.jpeg",
+          "sizes": [
+            {
+              "idsize": "38",
+              "size": "38",
+              "quantity": 5
+            },
+            {
+              "idsize": "39",
+              "size": "39",
+              "quantity": 8
+            },
+            {
+              "idsize": "40",
+              "size": "40",
+              "quantity": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "id": 1698435026726,
+      "iduser": "1",
+      "products": [
+        {
+          "idproduct": "1001",
+          "name": "Giày Nike Air Jordan 1",
+          "price": 5750000,
+          "idsize": "42",
+          "size": "42",
+          "idcolor": "04",
+          "color": "Xanh dương",
+          "image": "https://cdn.vortexs.io/api/images/1b8111ca-90ab-4219-9440-83cc4f3624e0/1920/w/giay-nike-air-jordan-1-mid-university-blue-bq6472-141.jpeg",
+          "quantity": 1
+        },
+        {
+          "idproduct": "1002",
+          "name": "Giày adidas Yeezy Boost",
+          "price": 9350000,
+          "idsize": "39",
+          "size": "39",
+          "idcolor": "06",
+          "color": "Cam",
+          "image": "https://cdn.vortexs.io/api/images/2f63eddf-5775-4e7f-8f0c-c4cfb19872e2/1920/w/giay-adidas-yeezy-boost-350-v2-beluga-reflective-gw1229.jpeg",
+          "quantity": 1
+        },
+        {
+          "idproduct": "1002",
+          "name": "Giày adidas Yeezy Boost",
+          "price": 9350000,
+          "idsize": "38",
+          "size": "38",
+          "idcolor": "06",
+          "color": "Cam",
+          "image": "https://cdn.vortexs.io/api/images/2f63eddf-5775-4e7f-8f0c-c4cfb19872e2/1920/w/giay-adidas-yeezy-boost-350-v2-beluga-reflective-gw1229.jpeg",
+          "quantity": 2
+        },
+        {
+          "idproduct": "1000",
+          "name": "Giày Nike Air Force 1 Low",
+          "price": 3550000,
+          "idsize": "42",
+          "size": "42",
+          "idcolor": "03",
+          "color": "Nâu",
+          "image": "https://cdn.vortexs.io/api/images/82b92a2f-ab7f-44c4-9ac8-d5815fd38551/1920/w/giay-nike-air-force-1-low-college-pack-night-maroon-dq7659-102.jpeg",
+          "quantity": 1
+        },
+        {
+          "idproduct": "1000",
+          "name": "Giày Nike Air Force 1 Low",
+          "price": 3550000,
+          "idsize": "43",
+          "size": "43",
+          "idcolor": "03",
+          "color": "Nâu",
+          "image": "https://cdn.vortexs.io/api/images/82b92a2f-ab7f-44c4-9ac8-d5815fd38551/1920/w/giay-nike-air-force-1-low-college-pack-night-maroon-dq7659-102.jpeg",
+          "quantity": 1
+        },
+        {
+          "idproduct": "1000",
+          "name": "Giày Nike Air Force 1 Low",
+          "price": 3150000,
+          "idsize": "42",
+          "size": "42",
+          "idcolor": "01",
+          "color": "Trắng",
+          "image": "https://cdn.vortexs.io/api/images/8283c386-5e94-4645-9181-e8fb11c034bc/1920/w/giay-nike-air-force-1-low-sunset-glow-dz6307-100.jpeg",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "name": "Lê Nguyễn",
+      "email": "admin@gmail.com",
+      "address": "Tân Phú, Hồ Chí Minh",
+      "phone": "0123456789",
+      "password": "4297f44b13955235245b2497399d7a93"
+    }
+  ]
+}
