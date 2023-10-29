@@ -180,9 +180,9 @@ export default {
     load() {
       return axios.get(`${APIURL}/products`).then((response) => {
         const data = response.data;
-        this.$store.commit("setData", data);
+        this.$store.dispatch("setData", data);
         const { id } = this.$route.params;
-        this.$store.commit("setIdSearch", id);
+        this.$store.dispatch("setIdSearch", id);
         this.product = this.$store.getters.getProductById;
         this.price = this.product.price;
         this.colors = this.product.variations; // gán color
@@ -195,7 +195,7 @@ export default {
           }
         }
         this.sizes.sort();
-        this.$store.commit("setDefaultData");
+        this.$store.dispatch("setDefaultData");
         this.currentImage = this.product.mainimage;
       });
     },
@@ -297,7 +297,7 @@ export default {
         ) {
           let temp = this.product.variations.find(v => v.idcolor == this.idColorSelected);
           let image = temp.subimage;
-          this.$store.commit("addToCart", {
+          this.$store.dispatch("addToCart", {
             id: this.product.id,
             idcolor: this.idColorSelected,
             idsize: this.idSizeSelected,

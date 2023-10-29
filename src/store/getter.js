@@ -59,8 +59,11 @@ const getter = {
                     colors.push({
                         idcolor: i.idcolor,
                         colorname: i.colorname,
-                        color: i.color
+                        color: i.color,
+                        count: 1
                     });
+                }else {
+                    colors.find((j)=> j.idcolor == i.idcolor).count++;
                 }
             })
         });

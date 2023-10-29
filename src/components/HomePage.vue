@@ -28,7 +28,7 @@
             placeholder="Search"
             v-model="searchText"
           />
-          <button class="btn btn-outline-success" @click="search()">
+          <button class="btn btn-outline-dark" @click="search()">
             Search
           </button>
         </div>
@@ -54,36 +54,64 @@
         <div class="container cate-box">
           <h4 class="fw-bold">Màu sắc</h4>
           <button
-            class="btn btn-outline-dark btn-filter-color text-light"
+            class="btn btn-outline-dark btn-filter-color text-light position-relative"
             :style="`background-color: ${color.color};`"
             v-for="color in getAllColor"
             :key="color.idcolor"
             @click="filterColor(color.idcolor)"
-            :class="{ active: color.idcolor === activeColor , 'text-dark': color.color === '#fff'}"
+            :class="{
+              active: color.idcolor === activeColor,
+              'text-dark': color.color === '#fff',
+            }"
           >
             {{ color.colorname }}
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark text-light"
+            >
+              {{ color.count }}
+            </span>
           </button>
           <button
-            class="btn btn-outline-dark btn-filter-cate "
+            class="btn btn-outline-dark btn-filter-cate position-relative"
             @click="filterColor('all')"
             :class="{ active: activeColor === 'all' }"
+            style="margin-top: -10px ;"
           >
-            Tất cả
+            Tất cả 
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark text-light"
+            >
+            {{ getAllProducts.length }}
+            </span>
           </button>
         </div>
       </div>
       <div class="col-lg-9 pt-2">
         <div class="my-2 d-flex">
           <div class="w-50">
-            <div class="btn btn-outline-dark page-limit-btn" @click="setLimit(4)" :class="{ active: limit == 4 }">
-            4
-          </div>
-          <div class="btn btn-outline-dark page-limit-btn" @click="setLimit(8)" :class="{ active: limit == 8 }">
-            8
-          </div>
+            <div
+              class="btn btn-outline-dark page-limit-btn"
+              @click="setLimit(4)"
+              :class="{ active: limit == 4 }"
+            >
+              4
+            </div>
+            <div
+              class="btn btn-outline-dark page-limit-btn"
+              @click="setLimit(8)"
+              :class="{ active: limit == 8 }"
+            >
+              8
+            </div>
           </div>
           <div class="w-50 pe-2">
-            <select name="" id="" class="float-end select-filter-box" @change="orderBy()" v-model="selectedOrder">
+            <select
+              name=""
+              id=""
+              class="float-end select-filter-box"
+              @change="orderBy()"
+              v-model="selectedOrder"
+            >
               <option value="" selected>-- Sắp xếp --</option>
               <option value="price-asc">Giá tăng dần</option>
               <option value="price-desc">Giá giảm dần</option>
@@ -92,8 +120,15 @@
         </div>
         <div class="row">
           <!-- LIMIT = 2 -->
-          <div :class="{ 'd-block': index >= limit*(page-1) && index < (limit*page) }" v-for="(p, index) in products" :key="p.id" class="product-wrap">
-            <router-link :to="`/product/${p.id}`" >
+          <div
+            :class="{
+              'd-block': index >= limit * (page - 1) && index < limit * page,
+            }"
+            v-for="(p, index) in products"
+            :key="p.id"
+            class="product-wrap"
+          >
+            <router-link :to="`/product/${p.id}`">
               <div>
                 <img :src="p.mainimage" alt="" class="product-image" />
                 <p class="name-product">{{ p.name }}</p>
@@ -113,13 +148,34 @@
         </div>
         <div class="w-25 mx-auto mt-4">
           <div class="d-flex">
-            <button class="btn btn-outline-dark btn-filter-cate me-2" @click="previousPage">Previous</button>
+            <button
+              class="btn btn-outline-dark btn-filter-cate me-2"
+              @click="previousPage"
+            >
+              Previous
+            </button>
             <div v-for="pageNumber in listPage" :key="pageNumber">
-              <button class="btn btn-outline-dark btn-filter-cate me-2 btn-page" @click="changePage(pageNumber)" 
-              :class="{'d-block': (pageNumber >= page-1 && pageNumber < page+2 && pageNumber <= totalPage) || (page == 1 && pageNumber ==3 && pageNumber <= totalPage), 'active': pageNumber == page}">
-              {{pageNumber}}</button>
+              <button
+                class="btn btn-outline-dark btn-filter-cate me-2 btn-page"
+                @click="changePage(pageNumber)"
+                :class="{
+                  'd-block':
+                    (pageNumber >= page - 1 &&
+                      pageNumber < page + 2 &&
+                      pageNumber <= totalPage) ||
+                    (page == 1 && pageNumber == 3 && pageNumber <= totalPage),
+                  active: pageNumber == page,
+                }"
+              >
+                {{ pageNumber }}
+              </button>
             </div>
-            <button class="btn btn-outline-dark btn-filter-cate me-2" @click="nextPage">Next</button>
+            <button
+              class="btn btn-outline-dark btn-filter-cate me-2"
+              @click="nextPage"
+            >
+              Next
+            </button>
           </div>
         </div>
       </div>
@@ -150,13 +206,15 @@ body {
   border-color: #212529 !important;
 }
 .btn-filter-color {
-  margin-right: 5px;
-  margin-bottom: 5px;
+  margin-right: 15px;
+  margin-bottom: 15px;
   font-size: 0.75rem !;
   font-weight: bold !important;
 }
 .btn-filter-color:hover {
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .btn-filter-cate.active,
 .btn-filter-cate:hover {
@@ -168,6 +226,20 @@ body {
   margin: 0 8px 0 0;
   display: none !important;
 }
+@media screen and (min-width: 480px) {
+  .product-wrap {
+    width: 99% !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .product-wrap {
+    width: 24% !important;
+  }
+}
+@screen and (min-width: 992px){
+
+}
+
 .product-wrap a {
   color: black;
   text-decoration: none;
@@ -218,7 +290,7 @@ export default {
       page: 1,
       limit: 4,
       totalPage: 1,
-      listPage: []
+      listPage: [],
     };
   },
   computed: {
@@ -229,17 +301,17 @@ export default {
       "filterBySize",
       "getAllProducts",
       "getAllColor",
-      "filterByColor"
+      "filterByColor",
     ]),
   },
   methods: {
     async load() {
       const { data } = await axios.get(`${APIURL}/products`);
       this.products = data;
-      this.$store.commit("setData", this.products);
+      this.$store.dispatch("setData", this.products);
       this.totalPage = Math.ceil(this.products.length / this.limit);
-      for(let i = 0; i < this.totalPage; i++){
-        this.listPage.push(i+1);
+      for (let i = 0; i < this.totalPage; i++) {
+        this.listPage.push(i + 1);
       }
     },
     async filterBrand(brand) {
@@ -255,17 +327,17 @@ export default {
       this.activeBrand = brand;
       this.totalPage = Math.ceil(this.products.length / this.limit);
     },
-    orderBy(){
+    orderBy() {
       let [nameOrder, type] = this.selectedOrder.split("-");
       switch (type) {
         case "asc":
-        this.products.sort( (a,b) => a[nameOrder] - b[nameOrder]);
-            break;
+          this.products.sort((a, b) => a[nameOrder] - b[nameOrder]);
+          break;
         case "desc":
-          this.products.sort( (b,a) => a[nameOrder] - b[nameOrder]);
+          this.products.sort((b, a) => a[nameOrder] - b[nameOrder]);
           break;
       }
-    },  
+    },
     filterSize(size) {
       if (size != "all") {
         this.products = this.filterBySize(size);
@@ -276,7 +348,7 @@ export default {
       this.activeSize = size;
       this.totalPage = Math.ceil(this.products.length / this.limit);
     },
-    filterColor(idcolor){
+    filterColor(idcolor) {
       if (idcolor != "all") {
         this.products = this.filterByColor(idcolor);
       } else {
@@ -287,7 +359,7 @@ export default {
       this.totalPage = Math.ceil(this.products.length / this.limit);
     },
     async search() {
-      this.$store.commit("setSearchText", this.searchText);
+      this.$store.dispatch("setSearchText", this.searchText);
       const { data } = await axios.get(`${APIURL}/products`, {
         params: { q: this.searchText },
       });
@@ -314,37 +386,37 @@ export default {
       this.limit = limit;
       this.totalPage = Math.ceil(this.products.length / this.limit);
     },
-    changePage(number){
+    changePage(number) {
       this.page = number;
     },
     previousPage() {
-      if(this.page > 1){
+      if (this.page > 1) {
         this.page--;
-      }else {
-        alert("Bạn đang ở trang đầu")
+      } else {
+        alert("Bạn đang ở trang đầu");
       }
     },
     nextPage() {
-      if(this.page < this.totalPage){
-        this.page ++;
-      }else {
+      if (this.page < this.totalPage) {
+        this.page++;
+      } else {
         alert("Đã hết sản phẩm để hiển thị");
       }
     },
-    resetFilter(){
+    resetFilter() {
       this.activeColor = "";
       this.activeBrand = "";
       this.searchText = "";
       this.activeSize = "";
       this.page = 1;
-    }
+    },
   },
-  beforeCreate(){
-    if(this.getUser){
-        console.log("Đã đăng nhập");
-      }else {
-        console.log("Chưa đăng nhập");
-      }
+  beforeCreate() {
+    if (this.getUser) {
+      console.log("Đã đăng nhập");
+    } else {
+      console.log("Chưa đăng nhập");
+    }
   },
   beforeMount() {
     this.load();

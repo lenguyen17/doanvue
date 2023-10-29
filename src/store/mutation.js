@@ -161,6 +161,7 @@ const mutation = {
     updateUser(state, user){
         axios.patch(`${APIURL}/user/${user.id}`, {...user})
             .then((response) => {
+                state.user = user;
                 console.log("update user successfully" + response.data);
             })
             .catch((error) => {

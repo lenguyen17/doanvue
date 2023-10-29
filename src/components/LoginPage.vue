@@ -83,7 +83,7 @@ export default {
               this.email == response.data[i].email &&
               md5(this.password) == response.data[i].password
             ) {
-              this.$store.commit("setUser", response.data[i]);
+              this.$store.dispatch("setUser", response.data[i]);
               isChecked = true;
               this.$router.push('/cart');
               break;

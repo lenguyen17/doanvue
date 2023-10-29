@@ -1,36 +1,40 @@
-import axios from "axios";
-import { APIURL } from "@/constraint";
+
 const action = {
-    fetchDataFromApi({ commit }) {
-        // Gọi API ở đây, sau đó cập nhật trạng thái bằng mutation
-        axios.get(`${APIURL}/products`).then(response => {
-          commit('setData', response.data);
-        });
-      },
-    setData(context){
-        context.commit('setData');
+    setDefaultData(context){
+        context.commit('setDefaultData');
     },
-    setIdSearch(context){
-        context.commit('setIdSearch');
+    setData(context, data){
+        context.commit('setData', data);
     },
-    addToCart(context){
-        context.commit('addToCart');
+    setCart(context, cart){
+        context.commit('setCart', cart);
     },
-    setUser(context){
-        context.commit('setUser');
+    setIdSearch(context, id){
+        context.commit('setIdSearch', id);
     },
-    setCart(context){
-        context.commit('setCart');
+    addToCart(context,data){
+        context.commit('addToCart', data);
     },
-    addQuantityInProduct(context){
-        context.commit('addQuantityInProduct');
+    updateCart(context, cart){
+        context.commit('updateCart', cart);
     },
-    updateCart(context){
-        context.commit('updateCart');
+    setUser(context, user){
+        context.commit('setUser', user);
     },
-    searchText(context){
-        context.commit('searchText');
+    deleteProductInCart(context, product){
+        context.commit('deleteProductInCart', product);
+    },
+    addQuantityInProduct(context, item){
+        context.commit('addQuantityInProduct',item);
+    },
+    
+    setSearchText(context, text){
+        context.commit('setSearchText', text);
+    },
+    updateUser(context, user){
+        context.commit('updateUser', user);
     }
+    
 
 }
 

@@ -61,8 +61,8 @@ export default {
   methods: {
     logout() {
       this.user =  Object.assign({}, {});
-      this.$store.commit("setUser", this.user);
-      this.$store.commit("setCart", this.user);
+      this.$store.dispatch("setUser", this.user);
+      this.$store.dispatch("setCart", this.user);
       this.$router.push("/login");
     }
   },

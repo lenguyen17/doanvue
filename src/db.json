@@ -18,12 +18,12 @@
             {
               "idsize": "42",
               "size": "42",
-              "quantity": 2
+              "quantity": 1
             },
             {
               "idsize": "43",
               "size": "43",
-              "quantity": 3
+              "quantity": 4
             },
             {
               "idsize": "44",
@@ -47,7 +47,7 @@
             {
               "idsize": "43",
               "size": "43",
-              "quantity": 2
+              "quantity": 0
             },
             {
               "idsize": "44",
@@ -76,7 +76,7 @@
             {
               "idsize": "42",
               "size": "42",
-              "quantity": 7
+              "quantity": 8
             },
             {
               "idsize": "43",
@@ -144,7 +144,7 @@
             {
               "idsize": "39",
               "size": "39",
-              "quantity": 7
+              "quantity": 8
             },
             {
               "idsize": "40",
@@ -495,14 +495,14 @@
       "price": 1750000,
       "brand": "New Balance",
       "description": "'The Future Is In The Air' - Mặc dù ko hiểu hết nghĩa lắm nhưng shop đảm bảo với các bạn, mẫu Giày Nike Wmns Air Max 97 'The Future Is In The Air là 1 trong các đôi giày top hot dành cho các fan nữ thích sự êm ái của đế Air. Số lượng cho phiên bản này cực hiếm ghé 60/18 vạn kiếp p3 bình thạnh",
-      "mainimage": "https://cdn.vortexs.io/api/images/8e5438bb-5733-4f41-be1f-dbbaee90cda3/1920/w/giay-new-blance-530-silver-metallic-mr530ema.jpeg",
+      "mainimage": "https://cdn.vortexs.io/api/images/dd25ad1b-7c2e-4459-b707-c21f0cbab197/1920/w/550k-giay-new-balance-550-shifted-sport-pack-bb550hr1.jpeg",
       "variations": [
         {
           "idcolor": "09",
           "color": "#BE2941",
           "colorname": "Đỏ",
           "bonuspriceColor": 0,
-          "subimage": "https://cdn.vortexs.io/api/images/8e5438bb-5733-4f41-be1f-dbbaee90cda3/1920/w/giay-new-blance-530-silver-metallic-mr530ema.jpeg",
+          "subimage": "https://cdn.vortexs.io/api/images/dd25ad1b-7c2e-4459-b707-c21f0cbab197/1920/w/550k-giay-new-balance-550-shifted-sport-pack-bb550hr1.jpeg",
           "sizes": [
             {
               "idsize": "38",
@@ -530,28 +530,6 @@
       "iduser": "1",
       "products": [
         {
-          "idproduct": "1001",
-          "name": "Giày Nike Air Jordan 1",
-          "price": 5750000,
-          "idsize": "42",
-          "size": "42",
-          "idcolor": "04",
-          "color": "Xanh dương",
-          "image": "https://cdn.vortexs.io/api/images/1b8111ca-90ab-4219-9440-83cc4f3624e0/1920/w/giay-nike-air-jordan-1-mid-university-blue-bq6472-141.jpeg",
-          "quantity": 1
-        },
-        {
-          "idproduct": "1002",
-          "name": "Giày adidas Yeezy Boost",
-          "price": 9350000,
-          "idsize": "39",
-          "size": "39",
-          "idcolor": "06",
-          "color": "Cam",
-          "image": "https://cdn.vortexs.io/api/images/2f63eddf-5775-4e7f-8f0c-c4cfb19872e2/1920/w/giay-adidas-yeezy-boost-350-v2-beluga-reflective-gw1229.jpeg",
-          "quantity": 1
-        },
-        {
           "idproduct": "1002",
           "name": "Giày adidas Yeezy Boost",
           "price": 9350000,
@@ -571,18 +549,7 @@
           "idcolor": "03",
           "color": "Nâu",
           "image": "https://cdn.vortexs.io/api/images/82b92a2f-ab7f-44c4-9ac8-d5815fd38551/1920/w/giay-nike-air-force-1-low-college-pack-night-maroon-dq7659-102.jpeg",
-          "quantity": 1
-        },
-        {
-          "idproduct": "1000",
-          "name": "Giày Nike Air Force 1 Low",
-          "price": 3550000,
-          "idsize": "43",
-          "size": "43",
-          "idcolor": "03",
-          "color": "Nâu",
-          "image": "https://cdn.vortexs.io/api/images/82b92a2f-ab7f-44c4-9ac8-d5815fd38551/1920/w/giay-nike-air-force-1-low-college-pack-night-maroon-dq7659-102.jpeg",
-          "quantity": 1
+          "quantity": 2
         },
         {
           "idproduct": "1000",
@@ -594,6 +561,17 @@
           "color": "Trắng",
           "image": "https://cdn.vortexs.io/api/images/8283c386-5e94-4645-9181-e8fb11c034bc/1920/w/giay-nike-air-force-1-low-sunset-glow-dz6307-100.jpeg",
           "quantity": 1
+        },
+        {
+          "idproduct": "1000",
+          "name": "Giày Nike Air Force 1 Low",
+          "price": 3150000,
+          "idsize": "43",
+          "size": "43",
+          "idcolor": "01",
+          "color": "Trắng",
+          "image": "https://cdn.vortexs.io/api/images/8283c386-5e94-4645-9181-e8fb11c034bc/1920/w/giay-nike-air-force-1-low-sunset-glow-dz6307-100.jpeg",
+          "quantity": 2
         }
       ]
     }

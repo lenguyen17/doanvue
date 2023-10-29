@@ -112,18 +112,17 @@ export default {
   },
   methods: {
     load() {
-      this.$store.commit("setDefaultData");
       axios
         .get(`${APIURL}/cart`)
         .then((response) => {
           let userCart = response.data.find((i) => i.iduser == this.user.id);
           if(userCart){
             this.cart = userCart;
-            this.$store.commit("setCart", this.cart);
+            this.$store.dispatch("setCart", this.cart);
           }else {
             this.cart =  Object.assign({}, {});
             this.cart.products = [];
-            this.$store.commit("setCart", this.cart);
+            this.$store.dispatch("setCart", this.cart);
           }
         })
         .catch((error) => {
@@ -134,13 +133,13 @@ export default {
     },
     deleteItem(id, idproduct, idcolor, idsize, quantity) {
       if (window.confirm("Are you sure you want to delete")) {
-        this.$store.commit("deleteProductInCart", {
+        this.$store.dispatch("deleteProductInCart", {
           id,
           idproduct,
           idcolor,
           idsize,
         });
-        this.$store.commit("addQuantityInProduct", {
+        this.$store.dispatch("addQuantityInProduct", {
           idproduct,
           idcolor,
           idsize,
@@ -161,8 +160,8 @@ export default {
     checkout() {
       // Lưu lại user
       if(this.user.name != this.getUser.name || this.user.phone != this.getUser.phone || this.user.address != this.getUser.address){
-        this.$store.commit("setUser", this.user);
-        this.$store.commit("updateUser", this.user);
+        this.$store.dispatch("setUser", this.user);
+        this.$store.dispatch("updateUser", this.user);
       }else {
         console.log("Vẫn giữ nguyêng");
       }
@@ -173,13 +172,13 @@ export default {
       if (this.cart.products[index].quantity > 1) {
         this.cart.products[index].quantity--;
         // {idproduct , idcolor, idsize, quantity} Số lượng thêm vào
-        this.$store.commit("addQuantityInProduct", {
+        this.$store.dispatch("addQuantityInProduct", {
           idproduct: p.idproduct,
           idcolor: p.idcolor,
           idsize: p.idsize,
           quantity: 1,
         });
-        this.$store.commit("updateCart", { "id" : this.cart.id, "products": this.cart.products});
+        this.$store.dispatch("updateCart", { "id" : this.cart.id, "products": this.cart.products});
       } else {
         this.deleteItem(
           this.cart.id,
@@ -200,13 +199,13 @@ export default {
       if (availableQuantity >= 1) {
         this.cart.products[index].quantity++;
         // {idproduct , idcolor, idsize, quantity} Số lượng thêm vào
-        this.$store.commit("addQuantityInProduct", {
+        this.$store.dispatch("addQuantityInProduct", {
           idproduct: p.idproduct,
           idcolor: p.idcolor,
           idsize: p.idsize,
           quantity: -1,
         });
-        this.$store.commit("updateCart", { "id" : this.cart.id, "products": this.cart.products});
+        this.$store.dispatch("updateCart", { "id" : this.cart.id, "products": this.cart.products});
         
       } else {
         alert("Sản phẩm đã hết hàng");
